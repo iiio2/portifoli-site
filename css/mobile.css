@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.para-items h1 {
+  font-size: 3rem;
+}
+
+.special-items {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+  padding: 0.5rem 1rem;
+}
+.special-items i {
+  margin-bottom: 0.6rem;
+}
+
+/* Special Another */
+.special-another {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1.5rem;
+}
+
+/* Creative process */
+#creative .process-items {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1.4rem;
+}
+
+/* Footer */
+.footer-items {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1.5rem;
+  text-align: center;
+}
+
+/* About Us */
+.about-sec {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1.4rem;
+}
+
+.about-sec div {
+  padding: 1rem 0;
+}
+
+/* Awards */
+.awards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1.5rem;
+  padding: 1.4rem;
+}
+
+/* All Logos */
+#all-logos {
+  display: none;
+}
+
+/* Testimonials */
+.comments {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.com-img {
+  display: none;
+}
+
+/* Project Image */
+.project-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project-img .l-m {
+  display: none;
+}
+
+/* Contact us */
+.three {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 3rem;
+}
